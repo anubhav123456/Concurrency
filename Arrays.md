@@ -40,6 +40,18 @@
     * `a[2] = 30`
     * `a[3] = 40`
 
+```java
+public class Main 
+{
+	public static void main(String args[]) 
+	{
+		int []a = {10, 20, 30, 40, 50};
+		System.out.println(a.length);
+		System.out.println(a[1]);
+	}
+}
+```
+
 ---
 
 # ✏️ **Modifying Array Values**
