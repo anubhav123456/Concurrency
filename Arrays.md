@@ -164,3 +164,14 @@ b = 10;
 * It will give error. 
 * Error : Incompatible type : int can not be converted to int[]
 ----
+
+# 📌 **Array Working and Types**
+* Unitialized array elements have 0 values. 
+```java
+int[] a = new int[4];
+for(int i = 0; i < a.length; i++)
+{
+	System.out.println(a[i]);
+} 
+```
+---
