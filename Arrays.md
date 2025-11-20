@@ -14,8 +14,7 @@
 
 * A **data structure** that stores **multiple items of the same type** in **contiguous memory**.
 * Almost all languages support arrays.
-* Java provides arrays as **objects**, unlike C/C++ where arrays are more like raw memory blocks.
-
+* Java provides arrays as **objects**, unlike C/C++ where arrays are more like raw memory blocks. 
 ---
 
 # 🧩 **Arrays in Java**
@@ -25,6 +24,8 @@
 
   * `length` → gives the size of the array.
 * Much easier than C/C++ where you manually track size using `sizeof`.
+* We have to dive the sizeof array with size of one element of an array to find the length of the array.
+* In C/C++, we have to have pass the length of an array to functions using array as arguments. 
 
 ---
 
