@@ -60,7 +60,17 @@ public class Main
 You can modify an array value using its index:
 
 ```java
-a[2] = 50;   // replaces 30 with 50
+public class Main 
+{
+	public static void main(String args[]) 
+	{
+		int []a = {10, 20, 30, 40, 50};
+		System.out.println(a.length);
+		a[2] = 60;
+		System.out.println(a[1]);
+		System.out.println(a[2]);
+	}
+}
 ```
 
 ---
