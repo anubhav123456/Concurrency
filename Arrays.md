@@ -92,7 +92,8 @@ public class Main
 ### **1️⃣ Declaration + Memory Allocation + Later Initialization**
 
 ```java
-int[] a = new int[3];
+int []a; 
+a = new int[3];
 a[0] = 10;
 a[1] = 20;
 a[2] = 30;
@@ -106,8 +107,7 @@ a[0] = 10;
 a[1] = 20;
 a[2] = 30;
 ```
-
-(Same as above but shown as a single step)
+* Same as above but shown as a single step)
 
 ### **3️⃣ Declaration + Initialization (most compact)**
 
@@ -121,7 +121,8 @@ int[] a = {10, 20, 30};
 
 ```java
 int[] a = new int[3];
-for (int i = 0; i < a.length; i++) {
+for (int i = 0; i < a.length; i++) 
+{
     a[i] = (i + 1) * 10; // 10, 20, 30
 }
 ```
@@ -142,22 +143,24 @@ for (int i = 0; i < a.length; i++) {
 
 ---
 
-# 💡 **Key Points Summary**
+# 📌 **a[] vs []a**
 
-* Arrays store **multiple values of the same type** together.
-* Java arrays are **objects** with a `length` property.
-* Indexing starts from **0**.
-* Accessing invalid index → **exception**.
-* Four main ways to create arrays.
-* Loops commonly used for reading/writing array values.
-* Arrays are fixed-size once created.
-
----
-
-If you want, I can also create:
-📌 Short revision sheet
-📌 Practice MCQs
-📌 Java code examples
-📌 Visual diagrams of array memory
-
-Just tell me!
+```java
+int[] a = new int[4];
+int a[] = new int[4];
+```
+* Both works fine. 
+```java
+int a[], b;
+a = new int[4];
+b = 10;
+```
+* This also works fine. 
+```java
+int[] a, b;
+a = new int[4];
+b = 10;
+```
+* It will give error. 
+* Error : Incompatible type : int can not be converted to int[]
+----
