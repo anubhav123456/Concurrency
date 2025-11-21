@@ -174,4 +174,7 @@ for(int i = 0; i < a.length; i++)
 	System.out.println(a[i]);
 } 
 ```
+* All items should of same type. 
+* Primitives are stored at contiguous locations. 
+* Non primitive references are stored at contiguous locations.
 ---
